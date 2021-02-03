@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <title>Random Quotes</title>
+    <!-- <script>
+       alert("hello");
+   </script>
+  -->
+</head>
+
+<body>
+    <div class="card">
+        <h1>Random Quotes</h1>
+
+
+        <p class="quote">
+            <%= quotevalue %>
+        </p>
+
+
+        <p class="by">-<%= authorname %>
+        </p>
+        <form action="/" method="post">
+            <button type="submit" class="btn">New Quote</button>
+        </form>
+
+    </div>
+    <script src="/js/verb.js"></script>
+</body>
+
+</html>
